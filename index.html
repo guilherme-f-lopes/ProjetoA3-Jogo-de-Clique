@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo de clique</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card" id="pontuacao_Card">
-        <h1>Pontuação</h1>
-        <p>Pontos:</p><p id="pontos"></p>
-        <button>Clique</button>
-    </div>
-    <div class="card" id="upgrades_Card">
-        <div id="clique_plus">
+    <div id="upgrades_card">
+        <div class="up" id="upgrade_1">
             <h3>Clique +1</h3>
             <p>Aumenta o poder do seu clique por 1</p>
             <p id="valor1"></p><p>pontos</p>
             <button>Comprar</button>
         </div>
-        <div id="">
-            
+        <div class="up" id="upgrade_2">
+            <h3>Clique +8</h3>
+            <p>Aumenta o poder do seu clique por 8</p>
+            <p id="valor2"></p><p>pontos</p>
+            <button>Comprar</button>
         </div>
+        <div class="up" id="upgrade_3">
+            <h3>Clique +32</h3>
+            <p>Aumenta o poder do seu clique por 32</p>
+            <p id="valor3"></p><p>pontos</p>
+            <button>Comprar</button>
+        </div>
+    </div>
+    <div id="pontuacao_card">
+        <h1>Pontuação</h1>
+        <p>Pontos:</p><p id="pontos"></p>
+        <button>Clique</button>
     </div>
 </body>
 </html>
