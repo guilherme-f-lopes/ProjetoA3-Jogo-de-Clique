@@ -71,3 +71,13 @@ body{
     color: black;
     text-decoration: none;
 }
+
+#contador{
+    background-color: rgb(219, 161, 106);
+    position: absolute;
+    margin-left: 10px;
+    padding: 10px 10% 20px 10px;
+    border: 5px solid rgb(117, 95, 75);
+    border: 5px solid rgb(117, 95, 75);
+    border-radius: 10px;
+}
