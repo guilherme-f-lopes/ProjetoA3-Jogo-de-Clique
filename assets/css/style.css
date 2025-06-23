@@ -54,3 +54,7 @@ body{
     color: black;
     text-decoration: none;
 }
+
+#img_monstro:hover{
+    cursor: cell;
+}
